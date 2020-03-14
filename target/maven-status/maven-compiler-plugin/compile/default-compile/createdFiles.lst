@@ -1,0 +1,8 @@
+reader\CsvReader.class
+model\PointWithDistance.class
+calculator\DistanceCalculatorImpl1.class
+calculator\DistanceCalculatorImpl2.class
+model\PointEntity.class
+app\Main.class
+calculator\DistanceCalculator.class
+calculator\KlassCalculator.class
