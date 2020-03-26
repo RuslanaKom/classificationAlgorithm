@@ -48,6 +48,7 @@ public class Main {
         String klass2 = klassCalculator2.calculateClass(knownPoints, newPoint, neighbours);
 
         if ((!StringUtils.isEmpty(klass1) | (!StringUtils.isEmpty(klass2))) && StringUtils.equals(klass1, klass2)) {
+            newPoint.setKlass(klass1);
             System.out.println("New point is of class " + klass1);
             csvReader.writeToCsv(newPoint);
         } else {
