@@ -19,7 +19,8 @@ import java.util.List;
 
 public class CsvReader {
 
-    private static final String FILE_LOCATION = "src\\main\\resources\\data.csv";
+    //private static final String FILE_LOCATION = "src\\main\\resources\\data.csv";
+    private static final String FILE_LOCATION = "./data.csv";
 
     public List<PointEntity> getDataFormCsv() {
         File file = new File(FILE_LOCATION);

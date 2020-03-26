@@ -1,6 +1,8 @@
 -download "IntelektikaTask1-1.0-SNAPSHOT-jar-with-dependencies.jar" from "target" directory;
+-download "data.csv" from  from "target" directory;
+-put "IntelektikaTask1-1.0-SNAPSHOT-jar-with-dependencies.jar" and "data.csv" to the same folder
 -run command prompt as administrator;
--move to the directory where you have saved "IntelektikaTask1-1.0-SNAPSHOT-jar-with-dependencies.jar" [cd <path to your directory>];
+-move to the directory where you have saved "IntelektikaTask1-1.0-SNAPSHOT-jar-with-dependencies.jar" and "data.csv" [cd <path to your directory>];
 - run command: [java -jar IntelektikaTask1-1.0-SNAPSHOT-jar-with-dependencies.jar];
 -you will be asked to enter x and y coordinates of a point you want to evaluate, as well as a number of neighbours which should be evaluated.
 -as a result you will get your poit classified and added to the list of points used for evaluation (csv file)
